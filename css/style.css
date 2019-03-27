@@ -8,77 +8,38 @@ body {
 h1 {
   font-size: 3em;
   font-weight: 800;
+  margin-bottom: 15px;
+  margin-top: 10px;
 }
 
 h3 {
   font-size: 2em;
   font-weight: 400;
+  margin-bottom: 15px;
 }
 
 p {
   font-size: 100%;
   font-weight: 200;
   line-height: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 a {
   text-decoration: none;
 }
 
-a:link {
+.right a:hover {
   color: #eeeef2;
 }
 
-a:visited {
+.right a:visited {
   color: #336699;
 }
-   
+
 nav {
   background-color: rgba(0, 0, 0, 0.397);
   float: left;
   position: fixed;
   width: 100%;
-}
-
-.logo {
-  margin: 20px;
-  width: 100px;
-}
-
-.large-pic {
-  content: url(images/bloc logo.png);
-  width: 100%;
-}
-
-.medium-pic {
-  content: url(instagram-pic.jpg);
-  width: 70%;
-}
-
-.left, .right {
-  float: left;
-  width: 50%;
-}
-
-.right {
-  float: right;
-}
-
-ul {
-  list-style-type: none;
-  float: right;
-}
-
-li {
-  float: right;
-  padding: 30px;
-}
-
-article {
-  padding-top: 100px;
-}
-
-.container {
-  margin: 0 auto;
-  width: 50%;
 }
